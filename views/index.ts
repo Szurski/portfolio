@@ -1,2 +1,5 @@
 export * from  './loginPage.view'
 export * from  './inventoryPage.view'
+export * from  './itemPage.view'
+export * from  './cartPage.view'
+export * from './checkoutStepOnePage.view'

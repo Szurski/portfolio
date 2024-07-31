@@ -16,3 +16,5 @@ inventoryPage: async({page}, use) =>{
   await use (inventoryPage)
 } 
 })
+export { test, expect };
+
