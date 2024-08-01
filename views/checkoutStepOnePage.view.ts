@@ -10,9 +10,9 @@ export class CheckoutStepOnePage{
     constructor(public readonly page: Page) {
        this.titleLabel = page.locator('.title');
        this.continueButton = page.locator('#continue');
-       this.firstNameInput = page.locator('#firstName');
-       this.lastNameInput = page.locator('#lastName');
-       this.zipInput = page.locator('#postal-code');
+       this.firstNameInput = page.locator('[data-test="firstName"]');
+       this.lastNameInput = page.locator('[data-test="lastName"]');
+       this.zipInput = page.locator('[data-test="postalCode"]');
 
     }
 }
